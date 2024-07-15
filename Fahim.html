@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE NEW YORK TIMES</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .search-form {
+            border: 1px solid #aaa;
+            margin-right: 5px;
+        }
+
+        .search-button {
+            background-color: rgb(86, 123, 149);
+            border: 1px solid rgb(50, 104, 145);
+            color: rgb(255, 255, 255);
+        }
+
+        .top-nav {
+            font-size: 10px;
+        }
+
+        .top-nav a {
+            color: black
+        }
+
+        .topbtn {
+            font-size: 10px;
+        }
+
+        .date {
+            font-weight: bold;
+        }
+
+        .navbar-border {
+            border-bottom: 5px double;
+        }
+
+        .hovert:hover a {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-md-4 col-12 d-flex flex-row">
+                <button type="button" class="btn btn-link text-dark"><i class="fa fa-search"></i></button>
+                <div>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control search-form" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-secondary search-button" type="button"
+                                id="button-addon2">Go</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="d-flex flex-row top-nav justify-content-center">
+                    <a class="text-decoration-none p-2" aria-current="page" href="#">U.S.</a>
+                    <a class="text-decoration-none p-2" href="#">INTERNATIONAL</a>
+                    <a class="text-decoration-none p-2" href="#">CANADA</a>
+                    <a class="text-decoration-none p-2" href="#">SPAÑOL</a>
+                    <a class="text-decoration-none p-2" href="#">中文</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="d-flex flex-row justify-content-end">
+                    <a class="btn search-button topbtn btn-sm me-2" href="#">
+                        SUBSCRIBE FOR $0.25/WEEK</a>
+                    <a href="#" class="btn search-button topbtn btn-sm">
+                        Log in
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-4">
+                <div class="date">
+                    <span>Wednesday, March 20, 2024</span>
+                </div>
+                <div>
+                    <a class="text-decoration-none text-dark" href="https://www.nytimes.com/section/todayspaper">Today’s
+                        Paper</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="">
+                    <div>
+                        <a href="https://www.nytimes.com/section/todayspaper" title="">
+                            <img src="The-New-York-Times-Logo.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-end">
+                <div>
+                    <div><span>S&amp;P 500</span></div>
+                    <div>-0.65%</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 navbar-border">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="hovert collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="https://www.nytimes.com/section/us">U.S.</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/section/world">World</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/section/business">Business</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/section/arts">Arts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/spotlight/lifestyle">Lifestyle</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/section/opinion">Opinion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/spotlight/podcasts">Audio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/crosswords">Games</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://cooking.nytimes.com/">Cooking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.nytimes.com/wirecutter/">Wirecutter</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://theathletic.com/uk/">The Athletic</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <h5>Putin Hails Conquests in Ukraine in Red Square Spectacle</h5>
+                    <p>A day after a rubber-stamp presidential election, President Vladimir Putin said he would not
+                        back down in Russia’s war against Ukraine.He took the stage, under a banner celebrating the 10th
+                        anniversary of Crimea’s seizure from Ukraine, to remind thousands of Russians gathered on Red
+                        Square that his fight to add territory to Russia wasn’t over.</p>
+                    <p>5 min read</p>
+                </div>
+                <div class="col-md-4 p-3">
+                    <img src="https://static01.nyt.com/images/2024/03/18/multimedia/18russia-folo-01a-zlhp/18russia-folo-01a-zlhp-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <p>Thousands of Russians gathered on Red Square in Moscow on Monday.</p>
+                    <p>Credit: Dr.Fahim for the New York Times</p>
+                </div>
+                <div class="col-md-4 p-3 border-start">
+                    <img src="https://static01.nyt.com/images/2024/03/18/multimedia/18shakira-01-bwhm/18shakira-01-bwhm-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h5>Shakira’s Family Came Apart. Then Her Music Soared.</h5>
+                    <p>8 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row border-top border-dark pt-3">
+                        <div class="col-md-4">
+                            <h5>Israel’s Military Raids Al-Shifa Hospital, Saying Hamas Regrouped There</h5>
+                            <p>The military said it was conducting a “high-precision” operation at a hospital complex in
+                                northern Gaza, which Hamas has repeatedly denied that it uses.</p>
+                            <p>see more updates</p>
+                            <!-- <h5>A White House official said Israeli forces killed a senior Hamas military leader in Gaza.
+                                </h5>
+                                <p>2 min read</p>
+                                <h5>Israeli negotiators were heading to Qatar for cease-fire talks, officials said. Last week,
+                                    Hamas dropped one of its demands.</h5>
+                                <p>2 min read</p> -->
+                        </div>
+                        <div class="col-md-8">
+                            <img src="https://static01.nyt.com/images/2024/03/18/multimedia/18mideast-briefing-hp-promo1/18mideast-briefing-header-10am-ET-bpwg-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                                width="100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4  border-start pt-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://static01.nyt.com/images/2023/04/25/multimedia/yf-spicy-skillet-honey-chicken-cjvt-copy/yf-spicy-skillet-honey-chicken-cjvt-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                                width="100%" alt="">
+                            <h6>Here are some easy chicken recipes for hectic weeknights.</h6>
+                            <p>Chicken thighs have all the makings of a weeknight staple:they are
+                                dependably moist and flavorful seasonings.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://static01.nyt.com/images/2024/03/15/multimedia/15OPEN-THREAD-jlcq/15OPEN-THREAD-jlcq-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                                width="100%">
+                            <h6>My Pants No Longer Fit. Should I Get Rid of Them or Keep Them in Case?</h6>
+                            <P>A reader asks our fashion critic: Should I keep the pants that no longer fit</P>
+                            <p>3 min read</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row  border-top border-dark pt-3 mt-3">
+                        <div class="col-md-4">
+                            <h6>Trump Can’t Meet Full Bond in $454 Million Judgment, Lawyers Say</h6>
+                            <p>Donald Trump’s lawyers said in a court filing that he faces “insurmountable difficulties”
+                                as
+                                he tries to raise cash for the civil fraud penalty.</p>
+                            <p>5 min read</p>
+                            <p>LIVE March 18, 2024, 4:36 p.m. ET48m ago</p>
+                            <h6>Donald Trump defended his warning of a “blood bath for the country” if he were to lose
+                                the
+                                election.</h6>
+                            <p>Trump said: “Now, if I don't get elected, it's going to be a blood bath for the whole —
+                                that's going to be the least of it</p>
+                            <p>See more updates 9+</p>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="https://static01.nyt.com/images/2024/03/18/multimedia/18trump-bond-pwgz/18trump-bond-pwgz-threeByTwoSmallAt2X-v3.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                                width="100%">
+                            <p>Manshi srivasta/The New York times</p>
+                            <p>GAIL COLLINS AND BRET STEPHENS</p>
+                            <h6>Mike Pence Rues the Day</h6>
+                            <p>7 min read</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-3 border-start">
+                    <p>Opinion</p>
+                    <p>MARC HOGAN</p>
+                    <h6>Sound Familiar? Private Equity Is Turning Our Music Ecosystem Into a Cultural Desert.</h6>
+                    <p>6 min read</p>
+                    <img src="https://static01.nyt.com/images/2024/03/18/opinion/18hogan/18hogan-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50%">
+                    <p>GAIL COLLINS AND BRET STEPHENS</p>
+                    <p>LINDA THOMAS-GREENFIELD</p>
+                    <h6>The Unforgivable Silence on Sudan</h6>
+                    <p>5 min read</p>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4  border-top border-dark pt-3  ">
+                        <h6>Gambia Moves Toward Overturning Landmark Ban on Female Genital Cutting</h6>
+                        <p>Lawmakers voted to repeal a 2015 ban. If it passes the final round of voting, Gambia will
+                            become the first nation to roll back protections against the practice.</p>
+                        <p>5 min read</p>
+                        <h6>America’s Largest Minority Is Also Its Most Misunderstood</h6>
+                        <p>4 min read</p>
+                    </div>
+                    <div class="col-md-4 border-top border-dark pt-3">
+                        <img src="https://static01.nyt.com/images/2024/03/18/multimedia/18gambia-women-kpvf/18gambia-women-kpvf-threeByTwoSmallAt2X-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                            width="100%">
+                        <p>Saidu Bah/ Agence France-prece</p>
+                    </div>
+                    <div class="col-md-4 border-start">
+                        <p>GRACIELA MOCHKOFSKY</p>
+                        <h6>One Way to Help a Journalism Industry in Crisis: Make J-School Free</h6>
+                        <p>5 min read</p>
+                        <img src="https://static01.nyt.com/images/2024/03/14/opinion/14mochkofsky-image/14mochkofsky-image-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                            width="25%">
+                        <p>MARA GAY</p>
+                        <p>She is a member of the New York Times editorial board, focusing on New York State and local affairs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <h6>The Great Read</h6>
+                    <h5>A Bronx Teacher Asked. Tommy Orange Answered.</h5>
+                    <p>When the author received an impassioned email, he dropped everything to visit the students
+                        who inspired it.</p>
+                    <p>6 min read</p>
+                    <p>NICHOLAS KRISTOF</p><i class="bi bi-person-circle"></i>
+                    <h6>Marginal Military Gains Won’t Stop a Famine in Gaza</h6>
+                    <p>2 min read</p>
+                </div>
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <img src="https://static01.nyt.com/images/2024/03/12/multimedia/00Orange1-sub-bthm/00Orange1-sub-bthm-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <p>Hiroko mausiki/ The New York Times</p>
+                    <P>No one was injured, but most of the mishaps required emergency landings or diversions. An expert
+                        said they were not
+                        the result of “systemic problems.”</P>
+                </div>
+                <div class="col-md-4 border-start">
+                    <h6>In Case You Missed It</h6>
+                    <h5>How Electronic Warfare Is Reshaping Ukraine’s Battlefields</h5>
+                    <img src="https://static01.nyt.com/images/2024/03/12/briefing/12ukraine-electronic-fade-slide-FYFN/12ukraine-electronic-fade-slide-FYFN-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50px">
+                    <h5>Snake Catchers in Australia Are Getting Busier</h5>
+                    <img src="https://static01.nyt.com/images/2024/03/14/world/14oz-snakes-dispatch-promo-001/14oz-snakes-dispatch-promo-001-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50px">
+                    <h5>Four Years On, the Mysteries of Covid Are Unraveling</h5>
+                    <img src="https://static01.nyt.com/images/2024/03/08/well/9Well-Covid-Mysteries/9Well-Covid-Mysteries-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50px">
+                    <p>6 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3  border-end border-dark pt-3 ">
+                    <h5>Supreme Court Wary of Bid to Limit Federal Input on Social Media Posts</h5>
+                    <p>The case arose from U.S. officials’ messages urging platforms to take down posts on topics
+                        like the coronavirus vaccines and claims of election fraud.</p>
+                    <p>See more updates 9+</p>
+                </div>
+                <div class="col-md-3  border-top-border-dark border-end pt-3 ">
+                    <h6>Key Moments From the Arguments</h6>
+
+                    <iframe width="100%" src="https://www.youtube.com/embed/o_GPSEVEasE?si=zJyU6uh5XMYDK10U"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-3  border-top border-dark pt-3 ">
+                    <h5>Justices Seem Likely to Side With N.R.A. in First Amendment Dispute</h5>
+                    <p>The National Rifle Association argued that a New York official violated the First Amendment
+                        by encouraging entities to break ties with the group.</p>
+                    <p>4 min read</p>
+                </div>
+                <div class="col-md-3  border-top border-dark pt-3 ">
+                    <h6>The Woman Who Tried to Make Porn Safe for Feminism</h6>
+                    <img src="https://static01.nyt.com/images/2024/03/13/multimedia/09candida-bio-01-wtch/09candida-bio-01-wtch-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50px">
+                    <p>4 min read</p>
+                    <h6>Mainstream G.O.P. Group to Target Bob Good as It Shifts Mission and Members</h6>
+                    <img src="https://static01.nyt.com/images/2024/03/14/multimedia/14dc-repubs-lzvb/14dc-repubs-lzvb-square320.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="50px">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <h5>What Elon Musk Said in a Testy Interview on Don Lemon’s New Show</h5>
+                    <p>The former CNN anchor released a wide-ranging interview with the billionaire about business,
+                        politics, online hate speech and more. Again, there were multiple points throughout the
+                        interview where Musk was clearly exasperated with Lemon and his questions.“If you've used too much ketamine, you can't really get work done, and I have a lot of work,” he said. </p>
+                    <p>3 min read</p>
+                </div>
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <img src="https://static01.nyt.com/images/2023/04/26/multimedia/18xp-lemonmusk-hp-promo1/18xp-lemonmusk-hp-promo1-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>Mikky copala</h6>
+                </div>
+                <div class="col-md-4 border-start">
+                    <h5>Tesla’s Troubles Raise Questions About Its Invincibility</h5>
+                    <p>As the share price plunges, investors wonder whether the company, led by Elon Musk, can
+                        withstand intensifying competition.“The stocks go up and down, but what really matters is are we
+                        making and delivering great products,” Mr. Musk said.</p>
+                    <p>6 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <h5>The G.O.P. Flamethrower With a Right-Wing Vision for North Carolina</h5>
+                    <p>Mark Robinson, the Republican nominee for governor, has a history of inflammatory statements
+                        and has called for weaving religious beliefs into government.</p>
+                    <p>3 min read</p>
+                </div>
+                <div class="col-md-4 border-top border-dark pt-3 ">
+                    <iframe width="100%" src="https://www.youtube.com/embed/DefVP0mkHZY?si=4eai80HkVQUQKhQA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <h6>The New York Times Op-Docs Debuts Taiwan-Set Oscar Hopeful “Island In Between” from
+                        Award-Winning Director S. Leo Chiang</h6>
+                </div>
+                <div class="col-md-4 border-start">
+                    <h5>The Kennedy family visited President Biden at the White House, despite Robert F. Kennedy
+                        Jr.’s presidential run.</h5>
+                    <p>Relatives of Robert F. Kennedy Jr. have pointedly backed President Biden as their family member
+                        pursues a White House
+                        bid that they’ve condemned as “dangerous.</p>
+                    <p>2 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <h5>Few Smartphones, Some Beer: A Christian Village Grapples With Modernity</h5>
+                    <p> It was early afternoon on a sunny winter Thursday, and the Fox Hill community looked like a
+                        well-manicured ghost town
+                        abandoned in the 1950s. Stately multistoried homes were scattered across a parklike landscape of
+                        gently rolling hills
+                        and ponds, a bucolic settlement of 60 acres in the Hudson Valley of New York State. But where
+                        was everyone?</p>
+                    <p>4 min read</p>
+                </div>
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <img src="https://static01.nyt.com/images/2024/03/08/multimedia/ny-bruderhof-01-gvqc/ny-bruderhof-01-gvqc-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                </div>
+                <div class="col-md-4 border-start">
+                    <h5>Empty Frames and Other Oddities From the Unsolved Gardner Museum Heist</h5>
+                    <p>After 34 years, not one of the 13 works stolen during the largest art theft in history has
+                        surfaced. In the pre-dawn hours of March 18, 1990, following a festive St. Patrick’s Day in Boston, two men dressed as police
+                        officers walked into the Isabella Stewart Gardner Museum and walked off with an estimated $500 million in art treasures.
+                        Despite efforts by the local police, federal agents, amateur sleuths and not a few journalists.</p>
+                    <p>3 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <h5>U.S. Bans the Last Type of Asbestos Still in Use</h5>
+                    <p>The United States joined more than 50 other countries that have banned the deadly
+                        carcinogen, although the phaseout will take more than a decade</p>
+                    <h6>New York City Mayor Is Accused of Sexually Assaulting Colleague in 1993</h6>
+                    <p>In a lawsuit, a former police colleague of Eric Adams said that he demanded oral sex in
+                        exchange for career help and assaulted her when she refused.</p>
+                    <h6>Justin Trudeau</h6>
+                    <iframe width="100%" src="https://www.youtube.com/embed/D2mK1Y7rzDw?si=-_08POEVnb4_fb45"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 border-top border-dark pt-3">
+                    <img src="https://static01.nyt.com/images/2024/03/19/multimedia/18anthropause-01-fcvk/18anthropause-01-fcvk-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>Where the Wild Things Went During the Pandemic</h6>
+                    <p>A new study of camera-trap images complicates the idea that all wildlife thrived during the Covid
+                        lockdowns.</p>
+                    <h5>8 Incidents in 2 Weeks: What’s Going on With United’s Planes?</h5>
+                    <p>No one was injured, but most of the mishaps required emergency landings or diversions. An
+                        expert said they were not the result of “systemic problems.”</p>
+                </div>
+                <div class="col-md-4 border-start">
+                    <h5>Philadelphia Man Is Cleared in Shooting After a Dozen Years in Prison</h5>
+                    <h6>Biden Signs Executive Order to Expand Research on Women’s Health</h6>
+                    <h5>Pakistani Airstrikes in Afghanistan Kill at Least 8, Taliban Officials Say</h5>
+                    <h6>Points Deducted From Premier League’s Nottingham Forest Over Financial Breach</h6>
+                    <h5>Ariana Grande’s ‘Eternal Sunshine’ Is the Biggest Album of 2024 Yet</h5>
+                    <p>“Eternal Sunshine,” Grande's seventh studio album and her first in almost four years.</p>
+                    <iframe width="100%" src="https://www.youtube.com/embed/cIkN9M9QnRE?si=1Va-X0mAEhTFintV"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <h6>Baraq Obama</h6>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4  border-top border-dark pt-3">
+                    <h5>Rick Pitino Criticizes Ranking Tool After St. John’s Missed N.C.A.A. Tournament</h5>
+                    <p>The Basketball Hall of Fame coach called the tool “fraudulent.”While Rick Pitino recognized that “bitterness does not help” after the NCAA selection committee snubbed St. John’s, the
+                    coach was critical of the NCAA Evaluation Tool (NET) rankings that serve a key role in assessing college basketball
+                    teams.</p>
+                    <h6>The Steelers Brought in Russell Wilson and Justin Fields. Who Should Start?</h6>
+                    <p>Politics make the situation a bit murky, but the answer should be clear, a columnist from
+                        The Athletic writes</p>
+                </div>
+                <div class="col-md-4  border-top border-dark pt-3">
+                    <img src="https://static01.nyt.com/images/2024/03/17/the-athletic/tamc-031724-MCBB-Rick-Pitino-fraudulent-1710732302582/tamc-031724-MCBB-Rick-Pitino-fraudulent-1710732302582-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>Rick Pitino criticizes ‘fraudulent’ NET rankings after St. John’s NCAA Tournament snub</h6>
+                </div>
+                <div class="col-md-4 border-start">
+                    <h5>The Dodgers Are Used to Pressure. This Is Different.</h5>
+                    <h6>The 10 Most Intriguing Players to Watch in Men’s March Madness</h6>
+                    <h5>Our Expert Predicts the Women’s N.C.A.A. Tournament</h5>
+                    <h5>The Potential Cinderella Teams in the Women’s N.C.A.A. Tournament</h5>
+                    <p>When Texas A&M is at its peak, it can contend with talented opposition. Selection Sunday has come and gone, and if your favorite team landed in the Albany 2 Region, my sincerest apologies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-secondary">
+            <div class="row">
+                <div class="col-md-3 border-end border-dark ">
+                    <img src="https://static01.nyt.com/images/2023/02/14/well/WELL-CANCER-DIAGNOSIS-ESSAY/WELL-CANCER-DIAGNOSIS-ESSAY-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>What Made My Cancer Diagnosis More Bearable</h6>
+                </div>
+                <div class="col-md-2 border-end border-dark ">
+                    <img src="https://static01.nyt.com/images/2024/03/14/well/14WELL-NL-TODDLER/14WELL-NL-TODDLER-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>Who Has the Secret to Well-Being?</h6>
+                </div>
+                <div class="col-md-3 border-end border-dark ">
+                    <img src="https://static01.nyt.com/images/2023/03/31/well/31Well-Retirement/31Well-Retirement-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>What Is the Ideal Retirement Age for Your Health?</h6>
+                </div>
+                <div class="col-md-2 border-end border-dark ">
+                    <img src="https://static01.nyt.com/images/2022/02/01/well/00well-scam-or-not-nettipot/00well-scam-or-not-nettipot-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>Do Neti Pots Really Work?</h6>
+                </div>
+                <div class="col-md-2 ">
+                    <img src="https://static01.nyt.com/images/2023/04/04/well/move/NYT_MeasureFitness_ShiraInbar-copy/NYT_MeasureFitness_ShiraInbar-copy-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        width="100%">
+                    <h6>3 Ways to Measure How Fit You Are, Without Focusing on Weight</h6>
+                </div>
+            </div>
+        </div>
+        </nav>
+</body>
+<script src="bootstrap-5/js/bootstrap.min.js"></script>
+
+</html>
